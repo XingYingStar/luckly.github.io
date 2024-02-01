@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*a:hover{background-image: url("photo/2.jpg");}*/
+body {background-color: black;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+  	margin: 0;
+	}
+.居中 {background-color: black;
+  	display: flex;
+/*  	justify-content: center;*/
+/*  	align-items: center;*/
+  	width: 1080px;
+	height: 741px;
+	margin: 0px;
+	}
+.图像精灵箱子 {position:absolute
+	}
+
+.图像精灵箱子 li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+.top{margin-top: 0px;}
+.top1{margin-top: 247px;}
+.top2{margin-top: 494px;}
+.top3{margin-top: 741px;}
+.图像精灵箱子 li, .图像精灵箱子 a {height: 247px;	/*整个列表的高	这里li==display: */
+/*	因为	a	在这里，所以高要在这设置设置*/
+  display: block;
+	}
+#精灵1 {left: 0px;
+/*	方块的位置*/
+  	width: 216px;
+  	background: url("../photo/w1.jpg") 0px 0px;
+/*	两坐标位置左上角开始	X(+1向左	0	-向右)	Y(+向上	0	-向下)*/
+	}
+#精灵2 {left: 216px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -216px 0px;
+	}
+#精灵3 {left: 432px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -432px 0px;
+	}
+#精灵4 {left: 648px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -648px 0px;
+	}
+#精灵5 {left: 864px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -864px 0px;
+	}
+#精灵6 {left: 0px;
+/*	方块的位置*/
+  	width: 216px;
+  	background: url("../photo/w1.jpg") 0px -247px;
+/*	两坐标位置左上角开始	X(+1向左	0	-向右)	Y(+向上	0	-向下)*/
+	}
+#精灵7 {left: 216px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -216px -247px;
+	}
+#精灵8 {left: 432px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -432px -247px;
+	}
+#精灵9 {left: 648px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -648px -247px;
+	}
+#精灵10 {left: 864px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -864px -247px;
+	}
+#精灵11 {left: 0px;
+/*	方块的位置*/
+  	width: 216px;
+  	background: url("../photo/w1.jpg") 0px -494px;
+/*	两坐标位置左上角开始	X(+1向左	0	-向右)	Y(+向上	0	-向下)*/
+	}
+#精灵12 {left: 216px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -216px -494px;
+	}
+#精灵13 {left: 432px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -432px -494px;
+	}
+#精灵14 {left: 648px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -648px -494px;
+	}
+#精灵15 {left: 864px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -864px -494px;
+	}
+#精灵16 {left: 0px;
+/*	方块的位置*/
+  	width: 216px;
+  	background: url("../photo/w1.jpg") 0px 0px;
+/*	两坐标位置左上角开始	X(+1向左	0	-向右)	Y(+向上	0	-向下)*/
+	}
+#精灵17 {left: 216px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -216px -216px;
+	}
+#精灵18 {left: 432px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -432px -432px;
+	}
+#精灵19 {left: 648px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -648px -648px;
+	}
+#精灵20 {left: 864px;
+  	width: 216px;
+  	background: url("../photo/w1.jpg") -864px -864px;
+	}
+
+.缩小{
+	width: 200px;
+	height: 200px;
+    transition: 0.5s;
+	}
+.缩小:hover{
+	transform: scale(0.5,0.5);
+	border-radius:30px;
+	}
+
+
+
+
